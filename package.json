@@ -1,0 +1,19 @@
+{
+  "name": "physhing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yves-Jean/physhing-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yves-Jean/physhing-app/issues"
+  },
+  "homepage": "https://github.com/Yves-Jean/physhing-app#readme"
+}
