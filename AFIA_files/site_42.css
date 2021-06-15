@@ -1,0 +1,380 @@
+body {
+  color: #27357C;
+}
+
+#header #bande {
+  background-color: #27357C;
+}
+
+.registrations #centre {
+  background-color: #27357C;
+}
+
+#footer {
+  background-color: #dde7ec;
+  color: #27357C;
+}
+
+.bloc_principal {
+  background-color: #dde7ec;
+}
+
+.bloc_secondaire {
+  background-color: #f0f0f0;
+}
+
+.couleur_body {
+  color: #27357C;
+}
+
+.couleur_principale {
+  color: #27357C;
+}
+
+.couleur_secondaire {
+  color: #F5C300;
+}
+
+.couleur_typo_lien {
+  color: #505291;
+}
+
+.titre_separator {
+  background-color: #505291;
+}
+
+#identification {
+  background-color: #27357C;
+}
+#identification .login_validation {
+  background-color: #F5C300;
+}
+
+.mdp_oublie {
+  color: #F5C300;
+}
+
+.mdp_oublie:hover {
+  color: #F5C300;
+}
+
+textarea.bordure {
+  border: solid 2px #F5C300;
+}
+
+#apropos {
+  color: #27357C;
+}
+
+.table_bloc {
+  color: #27357C;
+}
+
+.table_bloc td.titre_champ {
+  background-color: #505291;
+}
+
+/* CHOIX TRIPLETTE */
+#info_connexion {
+  color: #27357C;
+}
+
+.formations {
+  color: #505291;
+}
+.formations a:hover {
+  color: #27357C;
+}
+
+#connexion .bloc_connexion:hover {
+  color: #505291;
+}
+#connexion .bloc_connexion:hover a {
+  color: #505291;
+}
+
+#triplettes .triplette_return_list a {
+  color: #F5C300;
+}
+
+#triplettes .diplome {
+  color: #505291;
+}
+
+#triplettes .promotion {
+  color: #F5C300;
+}
+#triplettes .promotion a {
+  color: #F5C300;
+}
+
+/* LEA */
+@media (max-width: 767px) {
+  #menu_lea {
+    background-color: #505291;
+  }
+}
+
+#info_utilisateurs {
+  color: __couleur_infos_triplette__;
+}
+
+#info_utilisateurs a {
+  color: __couleur_infos_triplette__;
+}
+
+#menu_lea .info_plus {
+  color: __couleur_infos_triplette__;
+}
+
+#info_utilisateurs li {
+  background-image: __avatar__;
+}
+
+@media (max-width: 767px) {
+  #menu_diplome ul.ul_menu {
+    background-color: #505291;
+  }
+}
+
+#menu_diplome li a:hover {
+  color: #F5C300;
+}
+#menu_diplome li a.actif, #menu_diplome li span.actif {
+  color: #F5C300;
+}
+
+#info_diplome .organisme {
+  background-color: #505291;
+}
+#info_diplome .diplome {
+  background-color: #27357C;
+}
+
+.presentation_diplome .nom_bloc_presentation {
+  color: #F5C300;
+  border: solid 2px #F5C300;
+}
+
+/***Dessine bloc alt ***/
+.bloc_alt .titre {
+  border-bottom: solid 2px #F5C300;
+}
+.bloc_alt .titre span {
+  color: #F5C300;
+}
+.bloc_alt a {
+  color: #F5C300;
+}
+.bloc_alt i {
+  color: #F5C300;
+}
+
+.bloc_alt_suivi_lea .titre {
+  color: #505291;
+}
+
+.documents_bloc .bloc_bulle {
+  background-color: #505291;
+}
+.documents_bloc h4 {
+  color: #505291;
+}
+
+.table_document tr .fa-arrow-circle-o-down {
+  color: #505291;
+}
+.table_document tr .on-line {
+  color: #505291;
+}
+
+td.table_user_abbreviation {
+  background-color: #F5C300;
+}
+
+td.table_category_name {
+  background-color: #505291;
+}
+
+td.questionnaire_title {
+  color: #F5C300;
+}
+
+.titre_questionnaire {
+  color: #505291;
+  border-bottom: solid 5px #505291;
+}
+
+.sous_titre_questionnaire {
+  color: #F5C300;
+  border-bottom: 1px solid #F5C300;
+}
+
+.footer_questionnaire {
+  color: #F5C300;
+}
+
+#liens .nom {
+  color: #27357C;
+}
+
+#liens .url a {
+  color: #F5C300;
+}
+
+#liens .url a:hover {
+  color: #27357C;
+}
+
+/* FICHE UTILISATEUR */
+.button_return a {
+  color: #F5C300;
+}
+
+.titre_blocs {
+  color: #F5C300;
+}
+
+/* LIENS */
+a {
+  color: #505291;
+}
+
+a:hover {
+  color: #F5C300;
+}
+
+.message_questionnaire {
+  color: #27357C;
+}
+
+td.question_groupe {
+  border-bottom: solid 1px #27357C;
+}
+
+.reponse_tuteur {
+  color: #F5C300;
+}
+
+.grille_reponse_utilisateur {
+  color: #F5C300;
+}
+
+#page_carnet_bord .titre {
+  color: #F5C300;
+}
+
+#page_carnet_bord .bloc_info .titre {
+  background-color: #F5C300;
+}
+
+#page_carnet_bord .table_mode_emploi th {
+  background-color: #F5C300;
+}
+
+.int {
+  border: solid 1px #27357C;
+}
+
+.notes_fiche_synthese {
+  border: solid 1px #27357C;
+}
+
+.note_calcul_synthese {
+  border: solid 1px #27357C;
+}
+
+/* HISTORIQUE DES REPONSES */
+.historique {
+  border: solid 1px #27357C;
+}
+
+.historique thead th {
+  background: #27357C;
+}
+
+.bloc_aide {
+  color: #F5C300;
+}
+.bloc_aide a {
+  color: #F5C300;
+}
+
+.pdf_dl {
+  color: #505291;
+}
+
+.couleur_secondaire {
+  color: #F5C300 !important;
+}
+
+.couleur_lien {
+  color: #505291 !important;
+}
+
+/**CONFIG DIPLOME**/
+.icon_block a {
+  color: #505291;
+}
+
+.couleur_typo_principale {
+  color: #505291;
+}
+
+#agenda .vlaCalendar .label {
+  color: #505291;
+}
+
+#titre_squeeze_box_abs {
+  color: #F5C300;
+}
+
+.context-menu .context-link {
+  color: #27357C;
+}
+
+.editableField {
+  border: dotted 1px #505291;
+}
+
+.collectionItemGrid {
+  background-color: #505291 !important;
+}
+
+#contract_company.form-control {
+  color: #27357C;
+}
+
+.nav-dropdown a[type=button] {
+  color: #F5C300;
+}
+.nav-dropdown a[type=button]:hover, .nav-dropdown a[type=button]:active {
+  background: #F5C300;
+}
+.nav-dropdown.open a[type=button] {
+  background: #F5C300;
+}
+
+.btnMooc {
+  background-color: #F5C300;
+}
+
+.btn-lea {
+  background-color: #F5C300;
+  color: #F5C300;
+}
+
+.sw-theme-arrows > .nav .nav-link.active {
+  background-color: #27357C;
+}
+.sw-theme-arrows > .nav .nav-link.active::after {
+  border-left-color: #27357C;
+}
+.sw-theme-arrows > .nav .nav-link.done {
+  background: #27357C;
+}
+.sw-theme-arrows > .nav .nav-link.done::after {
+  border-left-color: #27357C;
+}
+
+/*# sourceMappingURL=site.css.map */
