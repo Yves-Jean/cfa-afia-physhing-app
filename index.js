@@ -5,7 +5,7 @@ const favicon = require("serve-favicon");
 dotenv.config();
 const cors = require("cors");
 const app = express();
-const port = process.env.port;
+const port = process.env.PORT || 80;
 
 app.use(cors());
 
@@ -17,6 +17,6 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "/index.html"));
 });
 
-app.listen(3000, function () {
-  console.log("CORS-enabled web server listening on port " + 3000);
+app.listen(port, function () {
+  console.log("CORS-enabled web server listening on port " + port);
 });
