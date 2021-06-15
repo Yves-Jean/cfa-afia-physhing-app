@@ -17,6 +17,6 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "/index.html"));
 });
 
-app.listen(port, function () {
-  console.log("CORS-enabled web server listening on port " + port);
+app.listen(3000, function () {
+  console.log("CORS-enabled web server listening on port " + 3000);
 });
